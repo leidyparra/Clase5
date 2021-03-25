@@ -1,0 +1,94 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(179, 219, 241);
+}
+
+.row {
+    width: 100%;
+    height: 100vh;
+    border-top: 80px solid darkcyan;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.col-30 {
+    margin-top: -40px;
+}
+
+.col-30:nth-child(1) {
+    width: 30%;
+    height: 50vh;
+    background-image: url(https://www.altonivel.com.mx/wp-content/uploads/2018/06/mejores-celulares-2018.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 5px;
+}
+
+.col-30:nth-child(2) {
+    width: 30%;
+    height: 50vh;
+    background-image: url(https://static.abc.es/media/tecnologia/2019/12/04/Clipboard-kIZE--510x287@abc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 5px;
+}
+
+.col-30:nth-child(3) {
+    width: 30%;
+    height: 50vh;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61H9zfSIjnL._AC_SY355_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 150%;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: 5px;
+}
+
+.col-30 h2 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.col-30 button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    border: none;
+    background-color: teal;
+    color: thistle;
+    transition: ease-in-out 1s;
+    margin-top: 180px;
+}
+
+.col-30 button:hover {
+    background-color: thistle;
+    color: teal;
+    cursor: pointer;
+}
